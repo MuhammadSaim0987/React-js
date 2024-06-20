@@ -1,8 +1,15 @@
+import Saim from "./saim"
 
 function App() {
   return (
-  <h1>Hello World.</h1>
-  )
+    <>
+    <Saim />
+    <p>Frontend web developer</p>
+    <p>Machine learning engineer</p>
+    <p>Data analyst</p>
+    <p>Data Scientist</p>
+    </>
+  ) 
 }
 
 export default App
