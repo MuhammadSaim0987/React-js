@@ -1,0 +1,33 @@
+body{
+  padding: 0px;
+  margin: 0px;
+}
+
+.fullScreen{
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  transition-duration: 200ms;
+}
+
+.bar{
+  height: 1.7rem;
+  background-color: aliceblue;
+  display: flex;
+  flex-wrap: wrap;
+  position: fixed;
+  bottom: 4rem;
+  left: 5rem;
+  right: 5rem;
+  border-radius: 3rem;
+  padding: .5rem 1.3rem;
+  border: 1px solid black;
+}
+
+.btnCont{
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+
