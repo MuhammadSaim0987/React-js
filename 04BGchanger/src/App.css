@@ -15,6 +15,7 @@ body{
   background-color: aliceblue;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   position: fixed;
   bottom: 4rem;
   left: 5rem;
@@ -26,8 +27,55 @@ body{
 
 .btnCont{
   display: flex;
-  gap: 1rem;
+  gap: 1.1rem;
   justify-content: center;
+  align-items: center;
 }
 
+.btn{
+  border: .5px solid black;
+  border-radius: 2rem;
+  min-width: 4rem;
+  padding: 0.4rem .5rem 0.4rem 0.5rem ;
+}
 
+.redbtn{
+  background-color: red;
+  color: white;
+}
+.bluebtn{
+  background-color: blue;
+  color: white;
+}
+.bibtn{
+  background-color: bisque;
+}
+.greenbtn{
+  background-color: green;
+}
+.orgbtn{
+  background-color: orange;
+}
+.viobtn{
+  background-color: violet;
+}
+.lavbtn{
+  background-color: lavender;
+}
+.yellbtn{
+  background-color: yellow;
+}
+.dgbtn{
+  background-color: darkgreen;
+  color: white;
+}
+.whitebtn{
+  background-color: white;
+}
+.blbtn{
+  background-color: black;
+  color: white;
+}
+.lcbtn{
+  background-color: lightcoral;
+}
