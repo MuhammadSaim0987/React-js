@@ -45,11 +45,15 @@ function App() {
           <TodoForm />
 
           <div className='mt-10 w-full flex flex-col items-center min-w-96'>
-            {todoList.map((task) =>(
+            {todoList.length > 0 ?
+            (todoList.map((task) =>(
               <div className='w-full text-white flex justify-center mt-3 text-lg' key={task.id}>
                 <TodoItems task={task}/>
               </div>
-            ))}
+            )) 
+            ):(
+              <p className='text-[#66fcf1] text-xl translate-y-10 mt-5'>No tasks available. Add a new task above!</p>
+            )}
           </div>
 
       </div> 
