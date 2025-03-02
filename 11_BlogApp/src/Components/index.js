@@ -9,6 +9,8 @@ import Input from "./Input";
 import PostCard from "../Store/PostCard";
 import Login from "./Login";
 import RTE from "./RTE";
+import Protected from "./AuthLayout";
+import PostForm from "./Postform/PostForm";
 
 export {
     Logo,
@@ -22,4 +24,6 @@ export {
     PostCard,
     Login,
     RTE,
+    Protected,
+    PostForm,
 }
